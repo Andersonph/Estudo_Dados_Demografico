@@ -1,65 +1,56 @@
-# Estudo: Dados Demográfico
+# 📊 Estudo de Dados Demográficos
 
 Grupo: Ana e Anderson (Tema: Demografia)
 
-link do Notion da aula: Notion 
 
-Atividade: 
-• Dados recentes 
-• Quais colunas informativas vocês possuem? 
-• Quais tipos de pergunta vocês conseguem responder com esses dados? 
-• É possível integrar essas fontes de dados que vocês encontraram? 
+Miniprojeto desenvolvido na disciplina de **Arquitetura e Processamento de Dados**, com foco na análise do **envelhecimento da população brasileira** e suas possíveis relações com a população em idade potencialmente ativa e a Previdência Social.
 
-DEFINA:  QUAL SEU OBJETIVO O QUE VOCÊS QUEREM ANALISAR/RESPONDER COM ESSES DADOS 
+## 🎯 Objetivo
 
-Principais Variáveis Demográficas
-Idade e gênero: Definem faixas etárias e sexo biológico.
-Renda e ocupação: Medem o ganho financeiro e o trabalho exercido.
-Localização: Mostra onde as pessoas moram, como bairro, cidade ou país.
-Escolaridade: Indica o grau de instrução ou estudo.
-Estado civil: Aponta se a pessoa é solteira, casada ou viúva
-Para que Servem
-Planejamento público: Governos usam para criar escolas, hospitais e transporte.
-Estratégia de mercado: Empresas usam para achar o cliente certo e definir produtos.
-Estudos sociais: Mostram como a população cresce, envelhece ou se move
+Analisar a evolução da estrutura etária da população brasileira, identificando tendências de envelhecimento populacional e discutindo os desafios que essa transformação pode representar para as próximas gerações.
 
-Site:
-Conceito de Dados demográficos: https://www.cortex-intelligence.com/blog/geomarketing/dados-demograficos
+## 🔎 Questões de análise
 
-https://www.ibge.gov.br/estatisticas/todos-os-produtos-estatisticas.html
+O projeto busca responder principalmente:
 
-https://nology.com.br/blog/dados-demograficos/
+- Como a estrutura etária da população brasileira está mudando?
+- Como evoluem indicadores como fecundidade, longevidade e envelhecimento?
+- Como está mudando a relação entre idosos e população em idade potencialmente ativa?
+- Qual é o perfil etário dos contribuintes da Previdência Social?
+- Quais reflexões essas mudanças trazem para o planejamento das novas gerações?
 
-https://brasilescola.uol.com.br/geografia/demografia.htm#Resumo+sobre+demografia
+## 🗂️ Fontes de dados
 
-https://www.seade.gov.br/tema-demografia/
+Serão utilizadas bases públicas e oficiais:
 
-https://brasilescola.uol.com.br/podcasts/o-que-e-preciso-saber-sobre-teorias-demograficas.htm
+- **IBGE — Projeções da População 2000–2070**
+- **Ministério da Previdência Social — AEPS 2024**
 
-https://www.ibge.gov.br/estatisticas/sociais/populacao/22827-censo-demografico-2022.html
+## 🏗️ Arquitetura dos dados
 
+O processamento será estruturado utilizando os conceitos da **Arquitetura Medalhão**:
 
-________________________________________________________________________
-IDEIAS:
-O que são dados demográficos?
-Para que servem os dados demográficos?
-Quais os principais tipos de dados demográficos?
-Qual é a importância dos dados demográficos?
+**🥉 Bronze → 🥈 Silver → 🥇 Gold**
 
+- **Bronze:** preservação dos dados provenientes das fontes originais;
+- **Silver:** limpeza, padronização e tratamento dos dados;
+- **Gold:** dados preparados e organizados para análise, indicadores e visualizações.
 
-ETAPA 01
-Com quais dados demográficos iremos trabalhar?
-O que pretendemos responder com estes dados demográficos?
-Existe algum problema social que com estes dados podemos ajudar a população?
-Com quais regiões pretendemos trabalhar? 
-(regional, municipal, estadual, nacional)
-Quais tipos de vantagens podemos obter com análises de dados demográficos?
+## 🛠️ Tecnologias
 
+- Python
+- Pandas
+- Jupyter Notebook
+- Git / GitHub
 
-ETAPA 02
-Onde buscaremos estes dados?
-Com quais ferramentas trabalharemos?
-Pretendemos ilustrar os resultados de que forma?
+## 📁 Estrutura inicial
 
+    Demografia_Previdencia/
+    ├── dados/
+    │   ├── projecoes_2024_tab3_grupos_etarios_especificos.xlsx
+    │   ├── projecoes_2024_tab4_indicadores.xlsx
+    │   └── Número_Contribuintes_2022_2024_24C32_03.xlsx
+    │
+    └── demografia_previdencia.ipynb
 
-Cruzar o perfil da população com uma transformação social, econômica ou espacial.
+> O projeto está em desenvolvimento e será atualizado conforme a evolução das etapas de processamento e análise dos dados.
