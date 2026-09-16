@@ -1,15 +1,15 @@
-# 📊 Estudo de Dados Demográficos
+# Estudo de Dados Demográficos
 
 Grupo: Ana e Anderson (Tema: Demografia)
 
 
 Miniprojeto desenvolvido na disciplina de **Arquitetura e Processamento de Dados**, com foco na análise do **envelhecimento da população brasileira** e suas possíveis relações com a população em idade potencialmente ativa e a Previdência Social.
 
-## 🎯 Objetivo
+## Objetivo
 
 Analisar a evolução da estrutura etária da população brasileira, identificando tendências de envelhecimento populacional e discutindo os desafios que essa transformação pode representar para as próximas gerações.
 
-## 🔎 Questões de análise
+## Questões de análise
 
 O projeto busca responder principalmente:
 
@@ -19,31 +19,31 @@ O projeto busca responder principalmente:
 - Qual é o perfil etário dos contribuintes da Previdência Social?
 - Quais reflexões essas mudanças trazem para o planejamento das novas gerações?
 
-## 🗂️ Fontes de dados
+## Fontes de dados
 
 Serão utilizadas bases públicas e oficiais:
 
 - **IBGE — Projeções da População 2000–2070**
 - **Ministério da Previdência Social — AEPS 2024**
 
-## 🏗️ Arquitetura dos dados
+## Arquitetura dos dados
 
 O processamento será estruturado utilizando os conceitos da **Arquitetura Medalhão**:
 
-**🥉 Bronze → 🥈 Silver → 🥇 Gold**
+**Bronze → Silver → Gold**
 
 - **Bronze:** preservação dos dados provenientes das fontes originais;
 - **Silver:** limpeza, padronização e tratamento dos dados;
 - **Gold:** dados preparados e organizados para análise, indicadores e visualizações.
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 - Python
 - Pandas
 - Jupyter Notebook
 - Git / GitHub
 
-## 📁 Estrutura inicial
+## Estrutura inicial
 
     Demografia_Previdencia/
     ├── dados/
